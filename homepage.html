@@ -8,7 +8,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
+		<div class="col1">
 			
 			<h2>InternBoat</h2>
 			<img src="InternBoat02.jpg" alt="Intern Boat logo" style="width:304px;height:228px;"> 
@@ -23,9 +23,43 @@
 		
  		
 		<br/>
-		<form action="/action_page.php">
+		<div class="col2">
+			<form action="/action_page.php">
 			Grade: <input type="text" name="Grade" value=" "><br>
 			Zipcode: <input type="text" name="Zipcode" value=" "><br>
 			<input type="submit" value="Submit">
- 	</body>
+		</div>
+		<div class="col3">
+   			<img src="Rose.jpg" alt="Rose" style="width:480px;height:328px;">
+ 		</div>
+	</body>
+	
+	<style>
+    {
+    text-shadow: 3px 2px blue;
+    }
+     .col1{
+       float:left;
+       width:350px;
+     }
+   
+     .col3 {
+       width: 350px;
+       position: absolute;
+       top: 100px;
+       left: 45%;
+       margin-left: -175px; /*half the size of width*/
+      }
+   
+    .col2{
+      float:right;
+      width: 350px;
+      margin-left:5px;
+     }
+   
+     body{
+     background-color: rgb(0,221,137);
+     }
+   <\style>
+  
 </html>
